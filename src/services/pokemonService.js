@@ -23,7 +23,6 @@ const formatStatName = (name) => {
   return statNames[name] || formatName(name);
 };
 
-
 /**
  * Transform raw PokeAPI data into a display-ready object.
  */
@@ -73,7 +72,6 @@ const formatPokemonData = (pokemon, species = null) => {
     baseHappiness: species?.base_happiness || 0
   };
 };
-
 
 /**
  * Get a single, fully-formatted Pokemon. Returns null if not found.
